@@ -41,5 +41,24 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+
+	<key>CFBundleURLTypeRole</key>
+	<array>
+	    <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>com.googleusercontent.apps.204196091569-uf9clq1jdp4500ae6fl0m83e68gqe132</string>
+            </array>
+        </dict>
+    </array>
+
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Tirar fotos dos contatos.</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Selecionar uma foto de contato da galeria.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Tirar fotos dos contatos.</string>
 </dict>
 </plist>
